@@ -1,0 +1,366 @@
+/*font-family: 'Poppins', sans-serif;*/
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 2px;
+    color: black;
+    overflow-y:hidden;
+
+}
+
+*,
+*:before,
+*:after
+{
+    box-sizing: border-box;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+
+
+/*Container*/
+.container {
+    width: 100%;
+    max-width: 1600px;
+    max-height: 650px;
+
+    margin: 0 auto;
+    position: absolute;
+    background: url("../img/back.jpg");
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%;
+
+    height: auto;
+
+
+}
+
+/*Header*/
+
+.circle_inner{
+
+
+}
+
+.inner{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 10px;
+}
+
+.logo img{
+    width: 40px;
+    height: 50px;
+    margin-left: 70px;
+    margin-top: 20px;
+
+}
+
+.nav {
+    padding: 30px 10px;
+    text-transform: uppercase;
+    margin-right: 210px;
+    margin-bottom: 30px;
+}
+
+.nav nav_link  {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+.nav_link{
+    list-style-type: none;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    width: auto;
+    color: black;
+    margin-right: 20px;
+}
+
+.nav_link {
+    padding: 20px 30px;
+    transition: all .2s ease;
+    text-decoration: none;
+}
+
+.nav_link:hover {
+    width: auto;
+    color: white;
+    background-color: black;
+    border: 1px black;
+    border-radius: 5px;
+    transition: all .2s ease;
+}
+
+/*Center*/
+
+.main{
+
+
+}
+
+
+.cntr_block_1 img{
+    width: 150px;
+    height: 130px;
+    position: absolute;
+    bottom: 380px;
+    left: 200px;
+    z-index:1 ;
+}
+
+.cntr_block_2 img{
+    width: 55px;
+    height: 50px;
+    position: absolute;
+    bottom: 385px;
+    right: 220px;
+    z-index:1 ;
+}
+
+.cntr_block_3 img{
+    width: 40px;
+    height: 35px;
+    position: absolute;
+    bottom: 430px;
+    right: 330px;
+    z-index:1 ;
+}
+
+.cntr_block_4 img{
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    bottom: 100px;
+    right: 240px;
+    z-index:1 ;
+}
+
+.cntr_block_5 img{
+    width: 230px;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    right: 530px;
+    z-index:1 ;
+}
+
+
+.bike{
+    display: flex;
+    justify-content: space-between;
+    position: center;
+    background-color: black;
+    height: 270px;
+
+
+}
+
+
+.cntr_text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 115px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+
+}
+
+.cover{
+    width: 500px;
+    position: relative;
+}
+
+.img_bike img{
+    width: 350px;
+    height: 350px;
+    margin-left: 200px;
+    position: relative;
+    bottom: 40px;
+    left: 20px;
+
+}
+
+.shadow{
+    opacity: 0.7;
+    position: absolute;
+    z-index: 1;
+}
+
+.shadow img{
+    left: 185px;
+    bottom: 390px;
+    width: 185px;
+    height: 350px;
+
+}
+
+.text_around{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+
+    text-transform: uppercase;
+    position: relative;
+
+}
+
+.text_around b{
+    position: absolute;
+    left: 350px;
+    width: 0;
+}
+
+.text_around b:nth-of-type(-n+12) {
+    /*bottom: 50%; !* отступ от центра по радиусу *!*/
+    bottom: 220px;
+    -ms-transform-origin: 0% 100%;
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+    padding-bottom: 170px; /* отступ от центра круга */
+}
+
+.text_around b:nth-of-type(7) {-ms-transform: rotate(273deg); -webkit-transform: rotate(273deg); transform: rotate(273deg);}
+.text_around b:nth-of-type(8) {-ms-transform: rotate(281deg); -webkit-transform: rotate(281deg); transform: rotate(281deg);}
+.text_around b:nth-of-type(9) {-ms-transform: rotate(287deg); -webkit-transform: rotate(287deg); transform: rotate(287deg);}
+.text_around b:nth-of-type(10) {-ms-transform: rotate(293deg); -webkit-transform: rotate(293deg); transform: rotate(293deg);}
+.text_around b:nth-of-type(11) {-ms-transform: rotate(297deg); -webkit-transform: rotate(297deg); transform: rotate(297deg);} /*Укажем расположение для буквы П*/
+.text_around b:nth-of-type(12) {-ms-transform: rotate(303deg); -webkit-transform: rotate(303deg); transform: rotate(303deg);} /*Укажем расположение для буквы Р*/
+.text_around b:nth-of-type(1) {-ms-transform: rotate(235deg); -webkit-transform: rotate(235deg); transform: rotate(235deg);} /*Укажем расположение для буквы Е*/
+.text_around b:nth-of-type(2) {-ms-transform: rotate(243deg); -webkit-transform: rotate(243deg); transform: rotate(243deg);} /*Укажем расположение для буквы В*/
+.text_around b:nth-of-type(3) {-ms-transform: rotate(249deg); -webkit-transform: rotate(249deg); transform: rotate(249deg);} /*Укажем расположение для буквы Е*/
+.text_around b:nth-of-type(4) {-ms-transform: rotate(255deg); -webkit-transform: rotate(255deg); transform: rotate(255deg);} /*Укажем расположение для буквы Т*/
+.text_around b:nth-of-type(5) {-ms-transform: rotate(261deg); -webkit-transform: rotate(261deg); transform: rotate(261deg);} /*Укажем расположение для буквы Е*/
+.text_around b:nth-of-type(6) {-ms-transform: rotate(267deg); -webkit-transform: rotate(267deg); transform: rotate(267deg);} /*Укажем расположение для буквы Т*/
+
+
+
+
+.text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 30px;
+    display: block;
+
+
+}
+
+.title{
+    margin-right: 200px;
+
+}
+
+.title_1{
+    margin-top: 35px;
+    color: white;
+
+    text-transform: uppercase;
+    margin-bottom: 50px;
+
+
+}
+
+.title_2{
+    color: white;
+
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+}
+
+.title_3{
+    color: #45ac75;
+
+    text-transform: uppercase;
+
+}
+
+.last_str{
+    display: flex;
+    justify-content: space-between;
+    position: center;
+    margin-bottom: 20px;
+    align-items: center;
+
+}
+
+
+.last_str input{
+    color: black;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    margin-left:30px;
+    margin-right: 200px;
+    border: 2px black;
+    background-color: #45ac75;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #45ac75;
+}
+
+.subtitle{
+    width: 400px;
+    line-height: 1.2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    color: black;
+}
+
+/*Footer*/
+.footer{
+    margin-top: 50px;
+    margin-left: 80px;
+
+}
+.social{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+
+
+}
+.social_item{
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    margin-right: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    /*padding: 15px;*/
+    /*padding-bottom: 10px;*/
+    padding-left: 6px;
+    padding-top: 4px;
+    margin-bottom: 50px;
+
+}
+
+
+
+
+/*Decoration*/
